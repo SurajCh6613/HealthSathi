@@ -1,9 +1,9 @@
-#HealthSathi is simple hospital website
+# HealthSathi is simple hospital website
 # Microsoft-Future-Ready-Talent-Virtual-Internship-Project
 
 This is the our final project created for Microsoft Future Ready Talent Virtual Internship Program
 
-# [Medpill Healthcare Website with Healthbot](https://white-moss-0ef554e00.3.azurestaticapps.net)
+# [ HealthSathi Website with Healthbot](https://calm-cliff-067d2740f.5.azurestaticapps.net)
 
 Project Link :
 
