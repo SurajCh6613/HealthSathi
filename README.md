@@ -5,7 +5,7 @@ This is the our final project created for Microsoft Future Ready Talent Virtual 
 
 # [ HealthSathi Website with Healthbot](https://calm-cliff-067d2740f.5.azurestaticapps.net)
 
-Project Link :
+Project Link : https://calm-cliff-067d2740f.5.azurestaticapps.net
 
 Demo Video :
 
