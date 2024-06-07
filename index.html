@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Frontend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to HealthSathi Hospital</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#appointment">Book Appointment</a></li>
+                <li><a href="#healthbot">Health Bot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>About Us</h2>
+        <p>Welcome to HealthSathi Hospital. We provide the best healthcare services.</p>
+
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="banner1.jpg" alt="Image 1">
+                <img src="banner2.jpg" alt="Image 2">
+                <img src="banner3.jpg" alt="Image 3">
+                <img src="banner4.jpg" alt="Image 4">
+            </div>
+            <button class="carousel-button prev" id="prevBtn">&#10094;</button>
+            <button class="carousel-button next" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form id="appointmentForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+
+    <section id="healthbot">
+        <h2>Health Bot</h2>
+        <div id="chatbox">
+            <div id="messages"></div>
+            <input type="text" id="userInput" placeholder="Ask a question...">
+            <button id="send">Send</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are committed to providing the best healthcare services.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@healthsathi.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="www.facebook.com/healthsathi">Facebook</a>
+                <a href="www.twitter.com/healthsathi">Twitter</a>
+                <a href="www.instagram.com/healthsathi">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 HealthSathi. All rights reserved. Designed & developed by Suraj Chaudhary</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
