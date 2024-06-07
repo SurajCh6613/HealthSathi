@@ -156,3 +156,28 @@ button{
     color: white;
     font-weight: 700;
 }
+
+
+/* Contact section styles */
+.contact-main{
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.map iframe {
+    border: 0;
+    width: 50vw;
+    height: 400px;
+    max-width: 600px;
+}

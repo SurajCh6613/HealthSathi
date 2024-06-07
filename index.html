@@ -12,8 +12,8 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#appointment">Book Appointment</a></li>
-                <li><a href="#healthbot">Health Bot</a></li>
+                <li><a href="healthbot.html">Health Bot</a></li>
+                <li><a href="#contact">Contact US</a></li>
             </ul>
         </nav>
     </header>
@@ -34,26 +34,26 @@
         </div>
     </section>
 
-    <section id="appointment">
-        <h2>Book an Appointment</h2>
-        <form id="appointmentForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="date">Appointment Date:</label>
-            <input type="date" id="date" name="date" required>
-            <button type="submit">Book Appointment</button>
-        </form>
-    </section>
 
-    <section id="healthbot">
-        <h2>Health Bot</h2>
-        <div id="chatbox">
-            <div id="messages"></div>
-            <input type="text" id="userInput" placeholder="Ask a question...">
-            <button id="send">Send</button>
+    <section id="contact">
+        <h2>Contact Us</h2>
+       <div class="contact-main">
+        <div class="contact-details">
+            <p><strong>Address:</strong> HealthSathi Clinic, Medical Street, New Delhi</p>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Email:</strong> contact@healthsathi.com</p>
         </div>
+        <div class="map">
+            <div>
+                <iframe
+                    style="border: 0; width: 100vw; height: 350px"
+                    src="map.html"
+                    frameborder="0"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+       </div>
     </section>
 
     <footer>
@@ -79,6 +79,48 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        let currentIndex = 0;
+const images = document.querySelectorAll('.carousel-images img');
+const totalImages = images.length;
+let autoScrollInterval;
+
+// Function to update the carousel display
+function updateCarousel() {
+    const offset = -currentIndex * 100;
+    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+}
+
+// Function to go to the next image
+function nextImage() {
+    currentIndex = (currentIndex + 1) % totalImages;
+    updateCarousel();
+}
+
+// Function to go to the previous image
+document.getElementById('prevBtn').addEventListener('click', function() {
+    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+    updateCarousel();
+});
+
+// Function to start auto-scrolling
+function startAutoScroll() {
+    autoScrollInterval = setInterval(nextImage, 3000); // Change image every 3 seconds
+}
+
+// Function to stop auto-scrolling
+function stopAutoScroll() {
+    clearInterval(autoScrollInterval);
+}
+
+// Event listeners to pause auto-scrolling on mouse enter and resume on mouse leave
+document.querySelector('.carousel').addEventListener('mouseenter', stopAutoScroll);
+document.querySelector('.carousel').addEventListener('mouseleave', startAutoScroll);
+
+// Start auto-scrolling on page load
+document.addEventListener('DOMContentLoaded', function() {
+    startAutoScroll();
+});
+    </script>
 </body>
 </html>

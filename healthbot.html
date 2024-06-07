@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthSathi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to HealthSathi Hospital</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="healthbot.html">Health Bot</a></li>
+                <li><a href="index.html#contact">Contact US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="healthbot">
+        <h2>Health Bot</h2>
+        <iframe src='https://webchat.botframework.com/embed/healthsathibot-plez2mn?s=PROAjion8Fw.VN0yAQthWLidJ4omW0D7CN1t47MmBjkyb9mbfHsx8Fc' style='min-width: 400px; width: 100%; min-height: 300px;'></iframe>
+    </section>
+    <script>
+        document.getElementById('send').addEventListener('click', function() {
+    let userMessage = document.getElementById('userInput').value;
+    if (userMessage.trim() !== '') {
+        let messageDiv = document.createElement('div');
+        messageDiv.textContent = `You: ${userMessage}`;
+        document.getElementById('messages').appendChild(messageDiv);
+
+        let botReplyDiv = document.createElement('div');
+        botReplyDiv.textContent = `Bot: I'm here to help!`;
+        document.getElementById('messages').appendChild(botReplyDiv);
+
+        document.getElementById('userInput').value = '';
+    }
+});
+
+    </script>
+</body>
+</html>
