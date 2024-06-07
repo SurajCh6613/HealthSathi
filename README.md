@@ -39,13 +39,14 @@ User-Friendly Interface: The website has an intuitive interface that puts access
 extensive Healthcare Information: Users can locate healthcare facilities and communicate with the chatbot in addition to obtaining extensive healthcare information. This information includes advice on leading a healthy lifestyle, details on common medical illnesses,
 
 ### Screenshots :
-![Screenshot (35)](https://user-images.githubusercontent.com/93502957/236379189-cfb0480f-8a86-412c-9a2d-f6c2380ed503.png)
 
-![Screenshot (36)](https://user-images.githubusercontent.com/93502957/236379210-55e184d5-287b-46d5-971c-4d84d26c5ed3.png)
+<img width="943" alt="homepage" src="https://github.com/SurajCh6613/HealthSathi/assets/114335583/ff782360-6af2-4899-b8bf-b8fef42e267e">
 
-![Screenshot (37)](https://user-images.githubusercontent.com/93502957/236379219-255cc6e9-e57a-414b-a683-dd423034bb65.png)
+<img width="959" alt="botpage" src="https://github.com/SurajCh6613/HealthSathi/assets/114335583/cfc0eb86-c17f-400c-bdd8-a30dc5e902b6">
 
-![Screenshot (38)](https://user-images.githubusercontent.com/93502957/236379238-8fda38a9-e57f-4694-bad9-6b023c3d2006.png)
+<img width="948" alt="contactpage" src="https://github.com/SurajCh6613/HealthSathi/assets/114335583/cbf4a230-2cc7-4f22-a06a-2db0dde53da2">
+
+
 
 ### Healthbot Screenshots:
 
