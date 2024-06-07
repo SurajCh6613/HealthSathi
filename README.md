@@ -50,6 +50,5 @@ extensive Healthcare Information: Users can locate healthcare facilities and com
 
 ### Healthbot Screenshots:
 
-![Screenshot (39)](https://user-images.githubusercontent.com/93502957/236379293-afbfcdaa-32f8-45e8-9c62-ae30db806dfe.png)
+<img width="903" alt="bot" src="https://github.com/SurajCh6613/HealthSathi/assets/114335583/8b059e9b-a3a5-4881-9261-1cebb2498b74">
 
-![Screenshot (40)](https://user-images.githubusercontent.com/93502957/236379307-1964aa6b-35dd-4deb-9495-85d2543bb71f.png)
